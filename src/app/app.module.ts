@@ -60,3 +60,5 @@ import { ProductAddComponent } from './Component/Seller/product-add/product-add.
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+//ttttttttttttttttttttttttttttttttt
