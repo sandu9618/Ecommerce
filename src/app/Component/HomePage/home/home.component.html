@@ -2,17 +2,27 @@
 <div style="height: 60px">
 
 </div>
-<div class="container-fluid" style="padding: 0;height: 100%;overflow-y: scroll">
+<div class="container-fluid" style="padding: 0;height: 100%;overflow-y: scroll;overflow-x: hidden">
   <div class="row" style="height: 100%">
-    <div class="col-2">
+    <div class="col-2" style="height: 800px">
       <app-menu></app-menu>
     </div>
     <div class="col-10" style="height: 100%">
       <div style="height: 400px">
         <app-slider></app-slider>
       </div>
-      <div>
-
+      <div style="height: 400px">
+        <app-home-page-product></app-home-page-product>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="height: 1200px ">
+    <div class="d-flex flex-column" style="width: 100%">
+      <div class="p-2" style="height: 70%">
+        <app-products-categories></app-products-categories>
+      </div>
+      <div class="p-2" style="height: 30%">
+        <app-footer></app-footer>
       </div>
     </div>
   </div>
