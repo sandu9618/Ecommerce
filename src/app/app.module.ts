@@ -26,6 +26,7 @@ import { FilterComponent } from './Component/filter/filter.component';
 import { SellerNavBarComponent } from './Component/Seller/seller-nav-bar/seller-nav-bar.component';
 import { ProductAddComponent } from './Component/Seller/product-add/product-add.component';
 import { HomeComponent } from './Component/HomePage/home/home.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { HomeComponent } from './Component/HomePage/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
