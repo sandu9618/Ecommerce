@@ -27,6 +27,7 @@ import { SellerNavBarComponent } from './Component/Seller/seller-nav-bar/seller-
 import { ProductAddComponent } from './Component/Seller/product-add/product-add.component';
 import { HomeComponent } from './Component/HomePage/home/home.component';
 import {FormsModule} from '@angular/forms';
+import { MenuComponent } from './Component/CategoryMenu/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import {FormsModule} from '@angular/forms';
     FilterComponent,
     SellerNavBarComponent,
     ProductAddComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
