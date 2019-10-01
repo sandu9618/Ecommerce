@@ -1,1 +1,7 @@
-<p>menu works!</p>
+<div (mouseover)="onMouseover()" (mouseleave)="onMouseLeaver()" [ngStyle]="onMouseoverStyle" style="font-size: 25px; height: 500px;overflow-y: scroll;padding-left: 5%">
+  <app-category-menu-item *ngFor="let iten of items"></app-category-menu-item>
+</div>
+
+
+
+
