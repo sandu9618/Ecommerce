@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
+  public clickedStyle = {};
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  onMouse() {
+    this.clickedStyle = {
+      width: '560px'
+    };
+  }
+
+  onMouseLeave() {
+    this.clickedStyle = {};
+  }
 }

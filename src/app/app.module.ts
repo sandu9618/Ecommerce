@@ -25,6 +25,9 @@ import { InvoiceDisplayComponent } from './Component/Product/invoice-display/inv
 import { FilterComponent } from './Component/filter/filter.component';
 import { SellerNavBarComponent } from './Component/Seller/seller-nav-bar/seller-nav-bar.component';
 import { ProductAddComponent } from './Component/Seller/product-add/product-add.component';
+import { HomeComponent } from './Component/HomePage/home/home.component';
+import {FormsModule} from '@angular/forms';
+import { MenuComponent } from './Component/CategoryMenu/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -50,11 +53,14 @@ import { ProductAddComponent } from './Component/Seller/product-add/product-add.
     InvoiceDisplayComponent,
     FilterComponent,
     SellerNavBarComponent,
-    ProductAddComponent
+    ProductAddComponent,
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
